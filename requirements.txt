@@ -11,4 +11,4 @@ thumbor>=3.15.0
 tornado>=3.1.1
 wsgiref>=0.1.2
 python-dateutil
-boto
+boto>=1.0

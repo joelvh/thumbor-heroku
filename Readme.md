@@ -41,6 +41,11 @@ configuration file is quite straightforward.
 
 It uses a pre-pack which embeds Python and OpenCV, which are the two dependencies required for Thumbor to run correctly.
 
+### Heroku
+
+You need to specify a buildpack with OpenCV to use face detection.
+
+`heroku buildpacks:set https://github.com/snapist/heroku-buildpack-python-opencv-scipy`
 
 License
 -------
